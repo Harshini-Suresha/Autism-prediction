@@ -1,5 +1,3 @@
-# Autism-prediction
-
 # Autism Prediction
 
 ## Overview
