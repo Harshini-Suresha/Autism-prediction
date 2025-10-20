@@ -142,8 +142,8 @@ plt.show()
 acc = accuracy_score(y_test, y_pred)
 auc = roc_auc_score(y_test, model.predict_proba(X_test)[:, 1])
 
-print(f"✅ Accuracy: {acc:.3f}")
-print(f"✅ ROC–AUC: {auc:.3f}")
+print(f" Accuracy: {acc:.3f}")
+print(f" ROC–AUC: {auc:.3f}")
 
 # ROC curve
 # Import additional evaluation tools
