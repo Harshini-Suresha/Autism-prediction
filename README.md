@@ -1,8 +1,8 @@
 # Autism-prediction
 
-# 🧠 Autism Prediction
+# Autism Prediction
 
-## 📖 Overview
+## Overview
 This project focuses on developing a **machine learning model** to predict the likelihood of **Autism Spectrum Disorder (ASD)** based on behavioral and demographic features.  
 By analyzing screening responses and background information, the system aims to provide early insights that can aid healthcare professionals and researchers in understanding ASD tendencies.
 
@@ -28,25 +28,25 @@ By analyzing screening responses and background information, the system aims to 
 
 ---
 
-## ⚙️ Project Workflow
+## Project Workflow
 
-### 1️⃣ Data Preprocessing
+### 1️. Data Preprocessing
 - Handle **missing values** and **inconsistent entries**.  
 - Convert **categorical variables** into numerical representations using encoding techniques.  
 - Apply **scaling/normalization** to numerical features.  
 - Address **outliers** and maintain dataset integrity.
 
-### 2️⃣ Exploratory Data Analysis (EDA)
+### 2️. Exploratory Data Analysis (EDA)
 - Visualize distributions and identify correlations between variables.  
 - Analyze relationships between **age**, **family history**, and **autism outcomes**.  
 - Use plots such as histograms, pairplots, and correlation heatmaps to derive insights.
 
-### 3️⃣ Feature Engineering
+### 3️. Feature Engineering
 - Derive new meaningful variables (e.g., total score from screening responses).  
 - Perform **feature importance ranking** using tree-based models.  
 - Select the most influential predictors to improve model performance.
 
-### 4️⃣ Model Development
+### 4️. Model Development
 Multiple supervised learning algorithms are implemented to identify the most effective model for autism prediction:
 - Logistic Regression  
 - Decision Tree Classifier  
@@ -56,7 +56,7 @@ Multiple supervised learning algorithms are implemented to identify the most eff
 
 Hyperparameter optimization is performed using **GridSearchCV** or **RandomizedSearchCV** to maximize performance.
 
-### 5️⃣ Model Evaluation
+### 5️. Model Evaluation
 Each model is assessed using several evaluation metrics:
 - **Accuracy**
 - **Precision**
@@ -66,21 +66,21 @@ Each model is assessed using several evaluation metrics:
 
 Performance comparison across models helps identify the most suitable one for deployment.
 
-### 6️⃣ Prediction and Model Deployment
+### 6️. Prediction and Model Deployment
 - The best-performing model is applied to the test dataset for prediction.  
 - Results are exported as a structured output file containing the predicted class labels and probabilities.  
 - The model can later be integrated into a web interface for real-time prediction.
 
 ---
 
-## 📊 Expected Outcomes
+## 7. Expected Outcomes
 - A reliable **classification model** capable of predicting ASD tendencies.  
 - Insightful analysis highlighting **key behavioral and familial factors** linked to autism.  
 - Comprehensive performance metrics validating model effectiveness and stability.
 
 ---
 
-## 🧩 Tools and Libraries
+## Tools and Libraries
 
 | Category | Libraries Used |
 |-----------|----------------|
@@ -92,7 +92,7 @@ Performance comparison across models helps identify the most suitable one for de
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 - Incorporate **explainable AI (XAI)** tools such as **SHAP** or **LIME** for model interpretability.  
 - Develop an **interactive dashboard** for clinical or research use.  
 - Integrate additional **genetic, environmental, or behavioral datasets** for improved generalization.  
@@ -100,7 +100,7 @@ Performance comparison across models helps identify the most suitable one for de
 
 ---
 
-## 🧑‍💻 Example Workflow Snippet
+## Example Workflow Snippet
 
 ```python
 # Import libraries
